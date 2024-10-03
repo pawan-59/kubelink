@@ -19,4 +19,5 @@ RUN useradd -ms /bin/bash devtron
 RUN chown -R devtron:devtron ./kubelink
 USER devtron
 
+
 CMD ["./kubelink"]
